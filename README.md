@@ -30,7 +30,7 @@ o := goweather.New()
 resp, err := o.GetFromOpenMeteo(param)
 ```
 
-- Open Weather
+- Open Weather required `APP_ID` from https://openweathermap.org
 
 ```go
 param := goweather.OpenWeatherParameter{
